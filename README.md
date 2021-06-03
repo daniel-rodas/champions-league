@@ -15,3 +15,21 @@ List<Team> teams = Arrays.asList(
             new Team("Jupiter",9,4,6)
         );
 ```
+
+Method signiture
+
+```
+public Tournament buildTournament(List<Teams> teams) {
+    return ...;
+}
+```
+
+Tournament Class
+
+```
+publice class Tournament {
+    public List<Team> division_1
+    public List<Team> division_2
+    ...
+}
+```
